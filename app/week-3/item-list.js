@@ -74,7 +74,8 @@ const item12 = {
 };
 return(
 
-    <main className="  grid grid-cols-4 gap-1 justify-items-center items-center">
+    <main className="  grid grid-cols-4 gap-1 justify-items-center items-center mt-5">
+        <h1 className="text-3xl font-bold text-center col-span-4">Shopping List</h1>
         <Item item = {item1}/>
         <Item item = {item2}/>
         <Item item = {item3}/>
